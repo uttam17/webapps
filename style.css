@@ -1,8 +1,312 @@
+/*Colors
+#03A87A - green
+#0A4183 - blue
+#FF9E05 - gold
+#FF5F05 - orange
+#FFFFFF - White
+#000000 - Black
+
+I really enjoy the base color green. It's similar to the one used on Medium. I'm thinking of 
+implementing some material minimalist design for the look and feel. I feel that this pallette
+includes colors that are both bright and would stand out on a white background.
+*/
+
+html,
+body {
+    overflow-x: hidden;
+    background-color: #f1efeba1;
+}
+
+.header-links {
+    font-size: 25px;
+    color: #000000;
+    /*    margin-top: 1%;
+*/
+    clear: both;
+    margin-left: 5%;
+    margin-right: auto;
+    /*width: 40em;
+    height: 5em;*/
+}
+
+body {
+    transition: background-color .5s;
+    clear: both width: 100px;
+    margin: 0 auto;
+}
+
+a {
+    /*    text-decoration: none;
+*/
+    color: black;
+    text-align: center;
+    /* display:  flex; */
+    /*    justify-content: center;
+*/
+}
+
+p#about_me {
+    margin-right: 1em;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.uttamface {
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    margin-right: 1em !important;
+    width: 27%;
+}
+
+img {
+    width: 20vh;
+    height: 100%;
+    max-height: 20vh;
+    padding: 0px !important;
+    float: right;
+    border: solid;
+}
+
+.project_div p {
+    margin: 10px;
+}
+
+.project_header {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 1em;
+}
+
+#about-class {
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.project_div {
+    height: 15em;
+}
+
+.project_boxes {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.project1_container,
+.project2_container,
+.project3_container,
+.project4_container,
+.block {
+    flex-grow: 1;
+    border-style: solid;
+    margin: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.project1_container,
+.project2_container,
+.project3_container {
+    height: 50vh;
+    /*    width: 20em;
+*/
+}
+
+.project1_container {
+    background-color: #FF9E05;
+}
+
+.project2_container {
+    background-color: #0A4183;
+}
+
+.project3_container {
+    background-color: #03A87A;
+    ;
+}
+
+.project4_container {
+    margin-top: 15em;
+    margin-right: 0px;
+    margin-left: 0px;
+    /*    margin-left: -10px;
+*/
+}
+
+.project_div {
+    margin-left: 10px;
+}
+
+#me-link {
+    position: absolute;
+    right: 60%;
+}
+
+#resume-link {
+    position: absolute;
+    right: 35%;
+}
+
+h3,
+h4,
+p {
+    margin: 0px;
+    padding-top: 1em;
+}
+
+
 /* latin */
+
 @font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+    font-style: normal;
+    font-weight: 400;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+.project4_container {
+    border-color: #2196F3!important;
+}
+
+.project4_container {
+    color: #000!important;
+    background-color: #ddffff!important;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: 100%;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+#project1_div > p,
+#project2_div > p {
+    font-size: 5.5vmin;
+}
+
+#project3_div > p {
+    font-size: 5.5vmin;
+}
+
+.block > p {
+    font-size: 1.3vh;
+}
+
+.block {
+    font-family: 'Lato', sans-serif;
+    margin-top: 1em;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left
+}
+
+.uttamface > img {
+    float: right;
+    border: solid;
+    padding: 0px !important;
+    border: solid;
+    width: 166%;
+    height: 100%;
+    max-height: 500px;
+}
+
+@media (min-width: 400px) and (max-width: 949px) {
+    .flex-item {
+        list-style: none;
+        width: 50%;
+    }
+    #project1_div > p,
+    #project2_div > p {
+        font-size: 2.5vmin;
+    }
+    #project3_div > p {
+        font-size: 3.5vmin;
+    }
+    .uttamface > img {
+        float: right;
+        border: solid;
+        padding: 0px !important;
+        border: solid;
+        width: 70%;
+        height: 100%;
+        max-height: 500px;
+            margin-top: 20px;
+
+    }
+    .block {
+        font-family: 'Lato', sans-serif;
+        margin-top: 1em;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        float: left
+    }
+    .uttamface {
+        margin-left: auto;
+        margin-right: auto;
+        float: right;
+        margin-right: 1em !important;
+        width: 27%;
+    }
+}
+
+@media (min-width:950px) {
+    .flex-item {
+        list-style: none;
+        width: 33%;
+    }
+    #project1_div > p,
+    #project2_div > p {
+        font-size: 2.2vmin;
+    }
+    #project3_div > p {
+        font-size: 2.2vmin;
+    }
+    .uttamface > img {
+        float: right;
+        border: solid;
+        padding: 0px !important;
+        border: solid;
+        width: 70%;
+        height: 100%;
+        max-height: 500px;
+    }
+    .block {
+        font-family: 'Lato', sans-serif;
+        margin-top: 2em;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        float: left
+    }
+    .uttamface {
+        margin-left: auto;
+        margin-right: auto;
+        float: right;
+        margin-right: 1em !important;
+        width: 27%;
+    }
+}
+
+ul {
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
 }

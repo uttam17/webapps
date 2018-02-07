@@ -1,31 +1,65 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-          <link rel="stylesheet" type="text/css" href="style.css">
 
-        <title>Web Portfolio</title>
-    </head>
-    
-    <body>
-       <div class="block" id="about-me">
-            <p>My name is Uttam Kumaran and my email is <a href="uk003@bucknell.edu">uk003@bucknell.edu</a></p>
-       </div>
-       
-       <div class="block" id="about-class">
-            <p>This course is Full Stack Web Applications. The professor is Alan Marchiori. This is section 05 at Bucknell University in Spring 2018.</p>
-       </div>
-       
-       <h2>Project 1</h2>
-       <p>This section will be completed soon.</p>
-       
-       <h3>Project 2</h3>
-       <p>This section will be completed soon.</p>
-     
-       <h4>Final Project</h4>
-       <p>This section will be completed soon.</p>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto|Vidaloka" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
 
-       <h4>Additional Coursework</h4>
-       <p><<a href="https://uttam17.github.io/webapps/fontfun">Font Fun</a></p>
-    </body>
+    <title>Web Portfolio</title>
+</head>
+
+<body>
+    <div class="header-links">
+        <!-- <a id="me-link" class="header-links" href="#resume">Me</a>
+        <a id="resume-link" class="header-links" href="#resume">Resume</a> -->
+        <br>
+    </div>
+    <div class="block" id="about-me" >
+        <p style="text-align:center; padding-left: 1em;">My name is Uttam Kumaran and my email is <a href="uk003@bucknell.edu">uk003@bucknell.edu</a></p>
+        <p style="text-align:center; margin-bottom: 1em;">This course is Full Stack Web Applications. The professor is Alan Marchiori. This is section 05 at Bucknell University in Spring 2018.</p>
+    </div>
+    <div class="uttamface">
+        <img src="uttamface.jpg">
+    </div>
+    <!-- <div class="block" id="about-class">
+        <p style="text-align:center;">This course is Full Stack Web Applications. The professor is Alan Marchiori. This is section 05 at Bucknell University in Spring 2018.</p>
+    </div> -->
+    <br>
+    <div class="project4_container" style="margin-left:auto;margin-right:auto;">
+        <div class="project_div" id="project4_div">
+            <h4 class="project_header" id="additional_coursework_header">Sample Coursework</h4>
+            <p><a href="https://uttam17.github.io/webapps/fontfun">Font Fun</a></p>
+        </div>
+    </div>
+    <div class=project_boxes>
+        <ul class="flex_div">
+            <li class="flex_item" id="flex_item1">
+                <div class="project1_container">
+                    <div class="project_div" id="project1_div">
+                        <h2 class="project_header" id="project1_header">Project 1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt erat id urna hendrerit, ut tempor purus scelerisque. Morbi sed arcu quis lorem egestas vestibulum eget sit amet urna. Aliquam eget pellentesque nisi. In tempus pharetra malesuada. Phasellus eget arcu risus. Aliquam id enim libero.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="flex_item" id="flex_item2">
+                <div class="project2_container">
+                    <div class="project_div" id="project2_div">
+                        <h2 class="project_header" id="project2_header">Project 2</h2>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla venenatis nec ipsum nec placerat. Praesent sagittis mi dolor, sed porta enim aliquet sed. Donec et felis dictum, feugiat est eget, bibendum nisl. </p>
+                    </div>
+                </div>
+            </li>
+            <li class="flex_item">
+                <div class="project3_container">
+                    <div class="project_div" id="project3_div">
+                        <h2 class="project_header" id="final_project_header">Final Project</h2>
+                        <p>Aenean vitae mi sed ipsum rhoncus dignissim sit amet sit amet risus. Cras ac tincidunt ipsum. Etiam a bibendum sapien. Donec velit magna, facilisis vel pulvinar eget, tincidunt eget turpis.</p>
+                    </div>
+                </div>
+    </div>
+    </li>
+    </ul>
+</body>
+
 </html>
