@@ -181,12 +181,12 @@ p {
     background-color: #ddffff!important;
 }
 
-.flex-container {
+.flex_div {
     display: flex;
     flex-wrap: wrap;
 }
 
-.flex-item {
+.flex_item {
     width: 100%;
     flex-shrink: 0;
     flex-grow: 1;
@@ -225,7 +225,7 @@ p {
 }
 
 @media (min-width: 400px) and (max-width: 949px) {
-    .flex-item {
+    .flex_item {
         list-style: none;
         width: 50%;
     }
@@ -243,9 +243,8 @@ p {
         border: solid;
         width: 70%;
         height: 100%;
-        max-height: 500px;
-            margin-top: 20px;
-
+        max-height: 250px;
+        margin-top: 20px;
     }
     .block {
         font-family: 'Lato', sans-serif;
@@ -265,7 +264,7 @@ p {
 }
 
 @media (min-width:950px) {
-    .flex-item {
+    .flex_item {
         list-style: none;
         width: 33%;
     }
