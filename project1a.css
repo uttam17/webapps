@@ -88,8 +88,8 @@ img {
 }
 
 .project_div {
-    height: 15em;
-}
+/*    height: 15em;
+*/}
 
 .project_boxes {
     display: flex;
