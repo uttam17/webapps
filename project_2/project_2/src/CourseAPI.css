@@ -1,0 +1,112 @@
+        .CourseForm .form {
+        font-size: 18px;
+        border-radius: 20px;
+        background-color: #c8cbd1;
+        color: #003865;
+        -webkit-box-shadow: 1px 4px 5px #999;
+        box-shadow: 1px 4px 5px #999;
+        padding: 30px 50px 30px 50px;
+        margin: 20px 10px 20px 10px;
+    }
+
+    .CourseForm .form .dropdown {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .CourseForm .form .form-group {
+        width: 100%;
+        padding: 0 10px 0 10px;
+    }
+
+    .CourseForm h3 h4{
+        text-align: center;
+        font-size: 10px;
+        color: #0038653d;
+    }
+
+    h4{
+    	font-size: .75rem;
+    	font-weight: 650;
+    	font-color: #000000b0;
+    }
+
+    .CourseForm .returnButton {
+        height: 45px;
+        width: 45px;
+        margin-left: auto;
+        margin-right: auto;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .CourseForm #load_icon {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .SearchResults .header {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .SearchResults .header  {
+        height: 50px;
+        width: 50px;
+    }
+
+    .SearchResults .results {
+        font-size: 18px;
+        background-color: #c8cbd1;
+        color: #003865;
+        -webkit-box-shadow: 1px 4px 5px #999;
+        box-shadow: 1px 4px 5px #999;
+        margin: 20px 10px 20px 10px;
+    }
+
+    .SearchResults .allCourses {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .SearchResults .allCourses .course {
+        display: inline-block;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        font-family: Montserrat;
+        color: black;
+        background-color: #e87722;
+        padding: 15px;
+        margin: 20px 10px 20px 10px;
+        width: 16.5em;
+    }
+
+    .SearchResults .extra {
+        font-family: Montserrat;
+        color: black;
+        background-color: #0082BA;
+        padding: 15px;
+        margin: 20px 10px 20px 10px;
+    }
+
